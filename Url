@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Search bar</title>
+</head>
+<style>
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      
+    }
+    form{
+        display: flex;
+        /* margin: 5px; */
+    }
+    input{
+        /* margin: 10px 10px; */
+        height: 40px;
+        width: 200px;
+    }
+    button{
+        /* height: 20px;
+        width: 50px; */
+        border: none;
+        color: rgb(0, 0, 0);
+        background-color: bisque;
+        cursor: pointer;
+        border: 2px dotted black;
+        
+    }
+</style>
+<body>
+    <div class="container">
+      <h2>Search bar</h2>
+
+      <form action="">
+      <input type="url" id="search" placeholder="https://">
+      <button>GO</button>
+      </form>
+
+     </div>  
+</body>
+</html>
